@@ -38,18 +38,6 @@ class GridBattle:
         (0, 127, 255),
         (255, 0, 127),
     ]
-    KEYS_TO_AGENTS = {  # mappings from keys to relative agents ids
-        pygame.K_0: 0,
-        pygame.K_1: 1,
-        pygame.K_2: 2,
-        pygame.K_3: 3,
-        pygame.K_4: 4,
-        pygame.K_5: 5,
-        pygame.K_6: 6,
-        pygame.K_7: 7,
-        pygame.K_8: 8,
-        pygame.K_9: 9,
-    }
     OVERPOPULATION_THRESHOLD = 6  # if a cell has more than this many neighbors, die
 
     # action and observation spaces for each agent as well as environment seed

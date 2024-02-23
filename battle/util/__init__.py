@@ -1,6 +1,5 @@
 from .types import *
 from .map import *
-from .util import *
 
 __all__ = [
     "Tiles",
@@ -8,5 +7,8 @@ __all__ = [
     "createEmpty",
     "createN",
     "create1v1",
-    "GameHistoryJSONEncoder",
+    "slideMap",
+    "slideMapWalls",
+    "sample_map_1",
+    "sample_map_1_sliding",
 ]
